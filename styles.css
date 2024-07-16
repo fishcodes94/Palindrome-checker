@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+  }
+  
+  
+  #container{
+    display: flex;
+    background-color:    #34495E ;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    
+    
+  }
+
+  #palindrome-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+      
+     
+  }
+
+  #palindrome-container h1{
+      font-size: 4em;
+      margin-bottom: 1em;
+      color: white
+  }
+  
+  #palindrome-input{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    margin-bottom: 1em;
+    box-shadow: 10px 5px 5px #F1C40F ;
+    
+   
+    
+
+  }
+
+button{
+    width: 5.5em;
+    height: 2.5em;
+    border: none;
+    border-radius: 10px;
+    background-color: #F1C40F ;
+    font-size: .9em;
+    color: black;
+    margin-left: 1em;
+    cursor: pointer;
+}
+
+
+  #palindrome-info{
+      background-color: beige;
+      margin-top: 1em;
+     
+    
+  }
+
+  #palindrome-input, #palindrome-info{
+      width: 25em;
+      height: auto;
+      border-radius: 20px;
+      padding: 1em;
+      font-size: 1.2em;
+  }
+  #palindrome-info p{
+      font-size: 1.5em;
+  }
+
+ 
+
+  #buttonText-container input{
+      margin-top: 4em;
+      width: 20em;
+      height: 2em;
+      border: none;
+      border-bottom: 2px solid black;
+      text-align: center;
+      background-color: white;
+
+  }
+
+  #results-container{
+      font-size: 1.5em;
+      margin-top: 1em;
+  }
+ 
